@@ -1,0 +1,24 @@
+import React from 'react';
+import './Campus.css';
+
+import gallery_1 from '../../assets/gallery-1.jpg';
+import gallery_2 from '../../assets/gallery-2.jpg';
+import gallery_3 from '../../assets/gallery-3.jpg';
+import gallery_4 from '../../assets/gallery-4.jpg';
+
+const Campus = () => {
+  return (
+    <div className="campus">
+      <h2>Our Campus Gallery</h2>
+      <div className="gallery">
+        <div className="gallery-item"><img src={gallery_1} alt="Campus 1" /></div>
+        <div className="gallery-item"><img src={gallery_2} alt="Campus 2" /></div>
+        <div className="gallery-item"><img src={gallery_3} alt="Campus 3" /></div>
+        <div className="gallery-item"><img src={gallery_4} alt="Campus 4" /></div>
+      </div>
+      <button className='btn dark-btn'>See More Here</button>
+    </div>
+  );
+};
+
+export default Campus;

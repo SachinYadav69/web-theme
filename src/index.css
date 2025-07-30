@@ -29,3 +29,9 @@ a{
     border: 0;
     outline: 0;
 }
+
+.btn.dark-btn{
+    background: blue;
+    color: white;
+    margin-top: 40px;
+}
