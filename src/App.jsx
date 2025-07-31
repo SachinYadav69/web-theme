@@ -28,7 +28,7 @@ const App = () => {
         <Title subTitle='Testimonials' title='What students says'/>
         <Testimonials/>
 
-        <Title subTitle='Contact Us' title='Get in touch with us'/>
+        <Title  title='Get in touch with us'/>
         <Contact/>
          {/* videos can be added */}
        <Footer/>
