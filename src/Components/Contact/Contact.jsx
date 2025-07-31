@@ -33,14 +33,15 @@ const Contact = () => {
   return (
     <div className='contact'>
        <div className="contact-col">
-        <h3>Send us a message <img src={msg_icon} alt="" /></h3>
-        <p>feel free to reach out to us anytime, for any suggestions any enquries or anything. we are here to help you 24x7</p>
-        <ul>
-            <li> contact@thisgmail.com</li>
-            <li>+91 346764 98347946 3986</li>
-            <li>Sec - 62, Delhi, India </li>
-        </ul>
-       </div>
+            <h3>Send us a message <img src={msg_icon} alt="" /></h3>
+            <p>feel free to reach out to us anytime, for any suggestions any enquries or anything. we are here to help you 24x7</p>
+            <ul className="contact-info">
+              <li><span>📧</span> contact@thisgmail.com</li>
+              <li><span>📞</span> +91 98765 43210</li>
+              <li><span>📍</span> Sec - 62, Delhi, India</li>
+            </ul>
+
+        </div>
 
        <div className="contact-col">
         <form onSubmit={onSubmit}>
