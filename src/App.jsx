@@ -30,7 +30,7 @@ const App = () => {
 
         <Title subTitle='Contact Us' title='Get in touch with us'/>
         <Contact/>
-       
+         {/* videos can be added */}
        <Footer/>
       </div>
       <VideoPLayer/>
